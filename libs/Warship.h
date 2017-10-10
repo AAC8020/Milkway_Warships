@@ -16,3 +16,14 @@
 //Sensors
 #define __USIN__
 #define __USOUT__ //US: Ultrasonic ³¬Éù²¨
+#define __IR1__
+#define __IR2__
+#define __IR3__
+#define __IR4__
+
+
+class IR
+{
+public:
+	bool L1, L2, R1, R2;
+};
