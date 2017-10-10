@@ -16,7 +16,7 @@ void MoveForward(unsigned int speed, unsigned int distance)
 		Serial.println("Invalid speed: out of range(1~10).");
 		return;
 	}
-	pwmSpeed = 255 / speed;
+	pwmSpeed = 25 * speed;
 	//´ıÌí¼Ó
 }
 void MoveBackward(unsigned int speed, unsigned int distance)
