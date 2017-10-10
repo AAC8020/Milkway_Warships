@@ -1,7 +1,7 @@
 #include "libs\Sensors.cpp"
 #include "libs\init.cpp"
 #include "libs\Warship.h"
-
+#include "libs\test.h"
 void setup()
 {
 	initAll();
@@ -9,7 +9,6 @@ void setup()
 
 void loop()
 {
-	
-  /* add main program code here */
+	test();
 
 }

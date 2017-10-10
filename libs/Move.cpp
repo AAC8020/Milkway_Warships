@@ -1,4 +1,5 @@
 //Speed range:1~10
+#pragma once
 #include <Arduino.h>
 #include "Warship.h"
 
