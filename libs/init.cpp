@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include "Warship.h"
+
 void initSensors(void);
 void initMotors(void);
 void initServos(void);
@@ -26,5 +28,7 @@ void initAll(void)
 	//initSensors();
 	//initMotors();
 	//initServos();
+	digitalWrite(LED_BUILTIN, HIGH);
+	Serial.println("Initialization complete, ready to go.");
 	return;
 }
