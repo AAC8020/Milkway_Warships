@@ -16,14 +16,10 @@
 //Sensors
 #define __USIN__
 #define __USOUT__ //US: Ultrasonic ������
-#define __IR1__
-#define __IR2__
-#define __IR3__
-#define __IR4__
-
-
-class IR
-{
-public:
-	bool L1, L2, R1, R2;
-};
+#define __IR1__ 1
+#define __IR2__ 2
+#define __IR3__ 3
+#define __IR4__ 4
+#define irtrue 1
+#define irfalse 0
+int ir1, ir2, ir3, ir4, irreturn;
