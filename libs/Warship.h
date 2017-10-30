@@ -4,18 +4,18 @@
 #include "libs\Sensors.cpp"
 #include "libs\init.cpp"*/
 //Motor PWM Ports
-#define __LFMOTOR__    //Left Front Motor
+#define __LFMOTOR__
 #define __RFMOTOR__
 #define __LBMOTOR__
-#define __RBMOTOR__    //Right Back Motor
+#define __RBMOTOR__
 //Servo PWM Ports
-#define __DSRVO__    //Direction Servo
-#define __HSERVO__    //Height Servo
+#define __DSRVO__
+#define __HSERVO__
 //Pump Control Port
-#define __PUMP__    //Air Pump
+#define __PUMP__
 //Sensors
 #define __USIN__
-#define __USOUT__ //US: Ultrasonic ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+#define __USOUT__ //US: Ultrasonic ³¬Éù²¨
 #define __IR1__
 #define __IR2__
 #define __IR3__
